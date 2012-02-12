@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'papertrail-cli'
-  s.version           = '0.8.2'
-  s.date              = '2011-11-25'
+  s.version           = '0.8.3'
+  s.date              = '2012-02-11'
   s.rubyforge_project = 'papertrail-cli'
 
   ## Make sure your summary is short. The description may be as long
@@ -38,6 +38,7 @@ Gem::Specification.new do |s|
   ## THE MANIFEST COMMENTS, they are used as delimiters by the task.
   # = MANIFEST =
   s.files = %w[
+    Rakefile
     papertrail-cli.gemspec
   ]
   # = MANIFEST =
