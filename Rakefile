@@ -17,7 +17,7 @@ def module_name
 end
 
 def version
-  '0.8.5'
+  '0.9.3'
 end
 
 def date
