@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   ## the sub! line in the Rakefile
   s.name              = 'papertrail-cli'
   s.version           = '0.8.5'
-  s.date              = '2012-02-11'
+  s.date              = '2012-07-30'
   s.rubyforge_project = 'papertrail-cli'
 
   ## Make sure your summary is short. The description may be as long
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
 
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.
-  s.add_dependency('papertrail', [ '~> 0.8.4' ])
+  s.add_dependency('papertrail', [ '>= 0.9.3' ])
 
   ## Leave this section as-is. It will be automatically generated from the
   ## contents of your Git repository via the gemspec task. DO NOT REMOVE
