@@ -43,6 +43,6 @@ Gem::Specification.new do |s|
   ]
   # = MANIFEST =
 
-  s.post_install_message = "This gem is now called \"papertrail\". Consider running: gem install papertrail && gem uninstall papertrail-cli"
+  s.post_install_message = "This gem has been renamed \"papertrail\". More: https://github.com/papertrail/papertrail-cli#quick-start"
 
 end
